@@ -1,0 +1,30 @@
+<h1> IoT Settings </h1>
+<form method='POST' action='/iot_settings' id='iot_settings_form'>
+<table style='width:100%;'>
+
+<tr>
+  <td>IoT Endpoint</td>
+  <td><input id='iot_endpoint' style='width:100%;' type='text' name='iot_endpoint' value='a1mc3fa5ewmv3x-ats.iot.us-east-1.amazonaws.com'></textarea></td>
+</tr>
+
+<tr>
+  <td>IoT Port</td>
+  <td><input id='iot_port' style='width:100%;' type='text' name='iot_port' value='8883'></td>
+</tr>
+
+<tr>
+  <td>IoT Key</td>
+  <td><textarea id='iot_key' style='width:100%; height:800px;' name='iot_key'></textarea></td>
+</tr>
+
+<tr>
+  <td>IoT Certificate</td>
+  <td><textarea id='iot_cert' style='width:100%; height:800px;' name='iot_cert'></textarea></td>
+</tr>
+
+</table>
+<br/>
+
+<input type='submit' value='Submit and Reboot'>
+
+</form>   

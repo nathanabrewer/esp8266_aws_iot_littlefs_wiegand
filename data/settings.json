@@ -1,0 +1,11 @@
+{
+"STA_SSID":"BREWERSYSTEMS",
+"STA_PSK":"9703125641",
+"AP_SSID":"bs",
+"AP_MODE":true,
+"IOT_ENDPOINT":"",
+"IOT_PORT":8883,
+"SPACE_ID":"1",
+"PUB_TOPIC":"space/1",
+"SUB_TOPIC":"space/1"
+}
